@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #376b3b;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 2px;
+    background-color: #f5f0f0;
+    margin: 50px;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #e4d8d8;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: brown;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+
+
+/* style for the Profile page */
+#reg-head {
+width: 100%;
+text-align: center;
+background-color: #fff;
+font-weight: bold;
+}
+.headrg {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 22px;
+    color: #144a03;
+}
+#reg-head:hover {
+    color: #3498DB;
+    transition: 1s;
+}
+#col-name {
+    float: right;
+    font-size: 20px;
+}
+#tb-box {
+    height: 22px;
+    width: 200px;   
+}
+td.t-1 {
+    float: left;
+    width: 44px;
+    text-align: right;
+    color: #C5EFF7;
+}
+td.t-2 {
+    float: right;
+    width: 55px;
+}
+#lg-1 {
+    padding-bottom: 10px;
+    float: left;
+    width: 95%;
+}
+.tl-1 {
+    float: left;
+    width: 40%;
+    padding-right: 5%;
+    text-align: center;
+    color: #02010c;
+}
+.tl-4 {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: #1a0de6;
+}
+ .btn{
+     border-radius: 5px;
+     border: none;
+     padding: 10px;
+     background: #5F9EA0;
+     font-size: 15px;
+     color: white;
+ } 
+ .topnav{
+     background-color: #ddd;
+     overflow: hidden;
+ }
+ .topnav a{
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     font-size: 17px;
+     text-decoration: none;
+     padding: 14px 16px;
+ }
+ .topnav a:hover{
+     background-color: #ddd;
+     color: black;
+ }
+ .topnav a:active{
+     background-color: #04AA6D;
+     color: white;
+ }
+ 

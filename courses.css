@@ -1,0 +1,24 @@
+table{ 
+     width:50%;
+     margin: 30px auto;
+     border-collapse:collapse;
+     text-align:left;
+}
+tr{
+    border-bottom: 1px solid #cbcbcb;
+}
+th,td{
+    height: 30px;
+    padding: 30px;
+    border: none;
+}
+tr:hover{
+    background: #F5F5F5;
+}
+.enroll_btn{
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: white;
+    background: #2E8B57;
+}
